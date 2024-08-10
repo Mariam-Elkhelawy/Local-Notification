@@ -30,9 +30,7 @@ class NotificationPage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Image.asset(
-          //     'assets/images/illustration-experiment-6-mobile-alerts_4x.png'),
-          Image.asset('assets/images/c5bd4ca8b8ba96cd8c05d9acd0c562fc.png'),
+          Image.asset('assets/images/notification.png'),
           const SizedBox(
             height: 80,
           )

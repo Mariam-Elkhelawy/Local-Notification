@@ -1,14 +1,17 @@
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class NotificationHelper {
+
+
   static final notification = FlutterLocalNotificationsPlugin();
   static void init() {
     notification.initialize(
       const InitializationSettings(
-        android: AndroidInitializationSettings('@mipmap/ic_launcher'),
+        android: AndroidInitializationSettings('@mipmap/launcher_icon'),
       ),
     );
   }
+
 
   static void pushNotification(
       {required String title, required String body}) async {
