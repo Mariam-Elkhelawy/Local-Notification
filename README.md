@@ -4,11 +4,11 @@ This repository demonstrates how to implement local notifications in a Flutter a
 
 ## 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
 Ensure you have Flutter installed on your machine. If not, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install) to set it up.
 
-### Dependencies
+## Dependencies
 
 Add the following dependencies to your `pubspec.yaml` file: 
 
@@ -21,7 +21,7 @@ dependencies:
 
 Run flutter pub get to install the dependencies.
 
-### Usage
+## Usage
 
 1. **Clone the repository:**
 
@@ -37,7 +37,7 @@ Run flutter pub get to install the dependencies.
 3. **Trigger a Notification:**
   Press the floating action button in the app to trigger a local notification.
 
-### Code Overview
+## Code Overview
 
 - **NotificationHelper Class:**  
   Handles the initialization and display of local notifications.
