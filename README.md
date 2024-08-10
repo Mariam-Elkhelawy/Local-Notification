@@ -10,14 +10,14 @@ Ensure you have Flutter installed on your machine. If not, follow the [official 
 
 ### Dependencies
 
-Add the following dependencies to your `pubspec.yaml` file:
+Add the following dependencies to your `pubspec.yaml` file: 
 
    ```yaml
        dependencies:
       flutter:
     sdk: flutter
       flutter_local_notifications: latest_version
-
+  ```
 
 Run flutter pub get to install the dependencies.
 
