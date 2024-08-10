@@ -9,14 +9,15 @@ This repository demonstrates how to implement local notifications in a Flutter a
 Ensure you have Flutter installed on your machine. If not, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install) to set it up.
 
 ### Dependencies
-   Add the following dependencies to your `pubspec.yaml` file:
-   
-    ```yaml
 
- dependencies:
-   flutter:
-     sdk: flutter
-   flutter_local_notifications: latest_version
+Add the following dependencies to your `pubspec.yaml` file:
+
+   ```yaml
+       dependencies:
+      flutter:
+    sdk: flutter
+      flutter_local_notifications: latest_version
+
 
 Run flutter pub get to install the dependencies.
 
