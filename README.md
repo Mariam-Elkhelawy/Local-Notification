@@ -9,14 +9,13 @@ This repository demonstrates how to implement local notifications in a Flutter a
 Ensure you have Flutter installed on your machine. If not, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install) to set it up.
 
 ### Dependencies
+   Add the following dependencies to your `pubspec.yaml` file:
+   
+      dependencies:
+      flutter:
+     sdk: flutter
+     flutter_local_notifications: latest_version
 
-Add the following dependencies to your `pubspec.yaml` file:
-
-    ```yaml
-    dependencies:
-    flutter:
-    sdk: flutter
-    flutter_local_notifications: latest_version
 Run flutter pub get to install the dependencies.
 
 ### Usage
@@ -71,5 +70,31 @@ Run flutter pub get to install the dependencies.
       );
     }
   }
+
+- **main.dart:**
+  Initializes the notification system when the app starts.
+
+    ```dart
+     void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  NotificationHelper.init();
+  runApp(const MyApp());
+  }
+
+- **notification_page.dart:**
+  Contains the UI where users can trigger a notification.
+
+  ```dart
+  onPressed: () {
+  NotificationHelper.pushNotification(
+    title: 'Local Notification',
+    body: 'This is my first notification',
+    );
+  }
+
+
+
+
+
 
 
