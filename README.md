@@ -13,10 +13,10 @@ Ensure you have Flutter installed on your machine. If not, follow the [official 
    
     ```yaml
 
-    dependencies:
-      flutter:
-        sdk: flutter
-      flutter_local_notifications: latest_version
+ dependencies:
+   flutter:
+     sdk: flutter
+   flutter_local_notifications: latest_version
 
 Run flutter pub get to install the dependencies.
 
