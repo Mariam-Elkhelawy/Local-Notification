@@ -2,8 +2,6 @@
 
 This repository demonstrates how to implement local notifications in a Flutter application using the `flutter_local_notifications` package. This is part of my **Advanced Flutter Challenge: 20 Steps to Enhance My Skills**.
 
-### 🚀 Getting Started
-
 ## Screenshots
 
 <img src = "https://github.com/user-attachments/assets/c8ae7bfd-8d67-4d11-8552-f5bcf36d43ee" height = 400> &emsp; <img src = "https://github.com/user-attachments/assets/39b2d0f4-0483-494c-99f3-738d60f65494"  height = 400>  &emsp; <img src = "https://github.com/user-attachments/assets/9d563d2d-b71e-4004-8404-2d3e126cb51f"  height = 400>  &emsp; 
